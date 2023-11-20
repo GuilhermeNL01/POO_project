@@ -1,4 +1,3 @@
-// CharacterView.java
 package View;
 
 import Model.Character;
