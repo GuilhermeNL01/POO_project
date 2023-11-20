@@ -3,6 +3,8 @@ package Model;
 public class Specialization {
     private String className;
     private int characterId;
+
+    
     public String getClassName() {
         return className;
     }

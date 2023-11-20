@@ -4,6 +4,8 @@ package Model;
 public class Race {
     private String raceName;
     private String abiRa;
+
+    
     public String getRaceName() {
         return raceName;
     }

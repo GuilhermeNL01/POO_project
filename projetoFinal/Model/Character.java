@@ -10,6 +10,8 @@ public class Character {
     private int inteligencia;
     private int carisma;
     private String raceName;
+
+    
     public int getId() {
         return id;
     }
