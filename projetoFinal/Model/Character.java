@@ -65,6 +65,5 @@ public class Character {
         this.raceName = raceName;
     }
 
-    // Construtores, getters e setters
 }
 

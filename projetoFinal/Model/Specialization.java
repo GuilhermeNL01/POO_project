@@ -17,5 +17,4 @@ public class Specialization {
         this.characterId = characterId;
     }
 
-    // Construtores, getters e setters
 }

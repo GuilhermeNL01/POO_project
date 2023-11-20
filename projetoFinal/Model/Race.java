@@ -17,5 +17,4 @@ public class Race {
         this.abiRa = abiRa;
     }
 
-    // Construtores, getters e setters
 }

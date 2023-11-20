@@ -23,5 +23,4 @@ public class Class {
         this.abiCla = abiCla;
     }
 
-    // Construtores, getters e setters
 }
