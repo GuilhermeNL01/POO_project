@@ -1,7 +1,7 @@
 // MainController.java
 package Controller;
 
-import view.MainView;
+import View.MainView;
 
 public class MainController {
     private MainView mainView;
