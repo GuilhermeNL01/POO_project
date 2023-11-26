@@ -1,8 +1,7 @@
-// CharacterController.java
 package Controller;
 
-import poo.model.Character;
-import poo.View.CharacterView;
+import model.Character;
+import view.CharacterView;
 
 public class CharacterController {
     private Character character;
