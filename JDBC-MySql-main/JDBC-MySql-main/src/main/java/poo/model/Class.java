@@ -1,6 +1,6 @@
 package poo.model;
 
-public class Class {
+public class Class extends Specialization {
     private String className;
     private int level;
     private String abiCla;

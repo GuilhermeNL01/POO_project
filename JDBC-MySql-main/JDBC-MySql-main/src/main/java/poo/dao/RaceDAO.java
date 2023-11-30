@@ -32,7 +32,7 @@ public class RaceDAO {
             ResultSet characters = conexao.createStatement().
                     executeQuery("SELECT * FROM RPG.Character");
             while (characters.next()) {
-                System.out.println(characters.getInt("id") + " " + characters.getString("nome"));
+                System.out.println("Raca: " + characters.getString("nome"));
             }
 
         } catch (ClassNotFoundException e) {

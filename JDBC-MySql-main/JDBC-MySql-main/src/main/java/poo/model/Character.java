@@ -10,7 +10,6 @@ public class Character {
     private int sabedoria;
     private int inteligencia;
     private int carisma;
-    private String raceName;
 
 
     public int getId() {
@@ -77,13 +76,6 @@ public class Character {
         this.carisma = carisma;
     }
 
-    public String getRaceName() {
-        return raceName;
-    }
-
-    public void setRaceName(String raceName) {
-        this.raceName = raceName;
-    }
 
 }
 
