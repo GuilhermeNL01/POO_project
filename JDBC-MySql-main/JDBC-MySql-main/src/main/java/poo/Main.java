@@ -9,7 +9,9 @@ public class Main {
     public static void main(String[] args) {
         CharacterDAO characterDAO = new CharacterDAO();
 
-        
+boolean loop = true;
+            
+         while (loop) {
 
         System.out.println("bem vindo usuário, o que você deseja hoje?\n\n");
         System.out.println("1. Criar\n");
@@ -20,7 +22,6 @@ public class Main {
         Scanner choice = new Scanner(System.in);
         int escolha = choice.nextInt();
 
-        
         switch (escolha) {
             case 1:
                 
@@ -65,7 +66,7 @@ public class Main {
             default: System.out.println("erro, por favor selecionar um dos números");
                 break;
         }
-        
+    }
 
     }
 }
