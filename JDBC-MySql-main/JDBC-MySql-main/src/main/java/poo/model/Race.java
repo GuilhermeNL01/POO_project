@@ -1,4 +1,4 @@
-package Model;
+package poo.model;
 
     
 public class Race {
