@@ -29,7 +29,31 @@ public class Main {
                 
                 break;
             case 3:
-              characterDAO.listar();  
+              System.out.println("Escolha qual listagem deseja realizar\n\n");
+              System.out.println("1. Fichas\n");
+              System.out.println("2. Raça\n");
+              System.out.println("3. Classe\n");
+              System.out.println("4. Especializações\n");
+              Scanner choice2 = new Scanner(System.in);
+              int escolha2 = choice2.nextInt();
+              switch (escolha2) {
+                case 1:
+                    
+                    break;
+                case 2:
+                    
+                    break;
+                case 3:
+                    
+                    break;
+                case 4:
+                    
+                    break;
+                
+              
+                default: System.out.println("Por favor, selecione uma escolha válida");
+                    break;
+              }
                 break;
             case 4:
                 
