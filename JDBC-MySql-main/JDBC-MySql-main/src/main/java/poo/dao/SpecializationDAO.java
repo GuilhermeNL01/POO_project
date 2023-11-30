@@ -12,7 +12,7 @@ public class SpecializationDAO {
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            conexao = DriverManager.getConnection("127.0.0.1:3306", "root", "admin");
+            conexao = DriverManager.getConnection("jdbc:mysql://localhost", "root", "admin123");
         } catch (ClassNotFoundException e) {
             System.out.println("Problema no Driver" + e);
         } catch (SQLException e) {
@@ -22,7 +22,7 @@ public class SpecializationDAO {
         return conexao;
     }
 
-    public static Connection listar() {
+    public Connection listar() {
         Connection conexao = null;
 
         try {
