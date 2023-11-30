@@ -12,7 +12,7 @@ public class CharacterDAO {
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            conexao = DriverManager.getConnection("jdbc:mysql://localhost", "root", "admin@123");
+            conexao = DriverManager.getConnection("127.0.0.1:3306", "root", "admin");
         } catch (ClassNotFoundException e) {
             System.out.println("Problema no Driver" + e);
         } catch (SQLException e) {
