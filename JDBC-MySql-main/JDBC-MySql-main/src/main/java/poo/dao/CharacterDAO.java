@@ -27,7 +27,7 @@ public class CharacterDAO {
 
         try {
             Class.forName("com.mysql.cj.jdbc.Driver");
-            conexao = DriverManager.getConnection("jdbc:mysql://localhost", "root", "admin@123");
+            conexao = DriverManager.getConnection("jdbc:mysql://localhost", "root", "admin");
 
             ResultSet characters = conexao.createStatement().
                     executeQuery("SELECT * FROM RPG.Character");
