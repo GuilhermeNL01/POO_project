@@ -38,7 +38,7 @@ public class Main {
               int escolha2 = choice2.nextInt();
               switch (escolha2) {
                 case 1:
-                    
+                    characterDAO.listar();
                     break;
                 case 2:
                     
