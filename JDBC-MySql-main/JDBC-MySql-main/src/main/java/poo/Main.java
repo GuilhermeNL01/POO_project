@@ -15,17 +15,17 @@ public class Main {
         SpecializationDAO specializationDAO = new SpecializationDAO();
         
 
-boolean loop = true;
+
             
 
-         while (loop) {
+       
 
         System.out.println("\nBem vindo usuário, o que você deseja hoje?\n\n");
         System.out.println("1. Criar\n");
         System.out.println("2. Atualizar\n");
         System.out.println("3. Listar\n");
         System.out.println("4. Deletar\n");
-        System.out.println("5. Filtar personagem\n"); 
+System.out.println("5. Filtar personagem\n"); 
         try (Scanner choice = new Scanner(System.in)) {
 			int escolha = choice.nextInt();
 
@@ -99,8 +99,8 @@ boolean loop = true;
 			        case 4:
 			            specializationDAO.listar();
 			            break;
-			        
-			      
+
+
 			        default: System.out.println("Por favor, selecione uma escolha válida\n");
 			            break;
 			      }
@@ -117,7 +117,7 @@ boolean loop = true;
 			        String nome5 = scanner5.nextLine();
 			        characterDAO.listarPorNome(nome5);
 			        break;
-			
+
 			    default: System.out.println("erro, por favor selecionar um dos números\n");
 			        break;
 			}
@@ -125,4 +125,3 @@ boolean loop = true;
     }
 
     }
-}

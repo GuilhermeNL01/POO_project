@@ -21,7 +21,7 @@ public class CharacterDAO {
     }
 
     public void inserirPersonagem(String nome, Integer forca, Integer destreza, Integer constituicao, Integer sabedoria,
-                                  Integer inteligencia, Integer carisma, String raceName){
+                                  Integer inteligencia, Integer carisma, String raceName) {
 
         Connection conexao = null;
 
